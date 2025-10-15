@@ -17,8 +17,6 @@
     "node-cache": "^5.1.2",
     "helmet": "^7.0.0",
     "express-rate-limit": "^6.7.0",
-    "canvas": "^2.11.2",
-    "sharp": "^0.32.1",
     "jimp": "^0.22.8",
     "@langchain/community": "^0.0.20",
     "@langchain/openai": "^0.0.14",
