@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class AIService {
-  static const String baseUrl = 'http://localhost:3000/api';
+  static const String baseUrl = 'https://alquran-superapp-fmw4hych5-niagahubs-projects.vercel.app/api';
   
   // Ask AI Ustaz/Ustazah
   Future<Map<String, dynamic>> askUstaz(String question, {String language = 'ms'}) async {

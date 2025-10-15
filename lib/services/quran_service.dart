@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/surah.dart';
 
 class QuranService {
-  static const String baseUrl = 'http://localhost:3000/api'; // Change to your backend URL
+  static const String baseUrl = 'https://alquran-superapp-fmw4hych5-niagahubs-projects.vercel.app/api';
   
   // Get all surahs
   Future<List<Surah>> getSurahs() async {
