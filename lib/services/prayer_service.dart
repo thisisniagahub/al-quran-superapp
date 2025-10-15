@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/prayer_times.dart';
 
 class PrayerService {
-  static const String baseUrl = 'https://alquran-superapp-fmw4hych5-niagahubs-projects.vercel.app/api';
+  static const String baseUrl = 'https://alquran-superapp-2blcgadtq-niagahubs-projects.vercel.app/api';
   
   // Get prayer times for Malaysia (e-Solat JAKIM)
   Future<PrayerTimes> getPrayerTimesMalaysia(String zone, {DateTime? date}) async {
